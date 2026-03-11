@@ -5,6 +5,7 @@ using Shouldly;
 
 namespace RoomBookingApp.Api.Tests
 {
+    // Todo: Delete if not needed
     public class UnitTest1
     {
         [Fact]
