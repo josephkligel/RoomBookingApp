@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.36227.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Core.Tests", "RoomBookingApp.Core.Tests\RoomBookingApp.Core.Tests.csproj", "{2B0D5CF0-75CE-4C82-AF86-E2822E169012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomBookingApp.Core.Tests", "RoomBookingApp.Core.Tests\RoomBookingApp.Core.Tests.csproj", "{2B0D5CF0-75CE-4C82-AF86-E2822E169012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Core", "RoomBookingApp.Core\RoomBookingApp.Core.csproj", "{A6765A2E-D6B0-486A-AC06-24252818BC04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomBookingApp.Core", "RoomBookingApp.Core\RoomBookingApp.Core.csproj", "{A6765A2E-D6B0-486A-AC06-24252818BC04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Domain", "RoomBookingApp.Domain\RoomBookingApp.Domain.csproj", "{91E129B1-2910-4CB6-AAD5-A259EC518881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Persistence", "RoomBookingApp.Persistence\RoomBookingApp.Persistence.csproj", "{F9AA87A1-0C99-4C50-A563-6122CF4CCAA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Persistence.Tests", "RoomBookingApp.Persistence.Tests\RoomBookingApp.Persistence.Tests.csproj", "{F7FAB8FE-8B18-4B15-998D-5A57AF23CC13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{A6765A2E-D6B0-486A-AC06-24252818BC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6765A2E-D6B0-486A-AC06-24252818BC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6765A2E-D6B0-486A-AC06-24252818BC04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E129B1-2910-4CB6-AAD5-A259EC518881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E129B1-2910-4CB6-AAD5-A259EC518881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E129B1-2910-4CB6-AAD5-A259EC518881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E129B1-2910-4CB6-AAD5-A259EC518881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9AA87A1-0C99-4C50-A563-6122CF4CCAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AA87A1-0C99-4C50-A563-6122CF4CCAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AA87A1-0C99-4C50-A563-6122CF4CCAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AA87A1-0C99-4C50-A563-6122CF4CCAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FAB8FE-8B18-4B15-998D-5A57AF23CC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FAB8FE-8B18-4B15-998D-5A57AF23CC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FAB8FE-8B18-4B15-998D-5A57AF23CC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FAB8FE-8B18-4B15-998D-5A57AF23CC13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

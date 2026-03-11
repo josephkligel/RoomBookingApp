@@ -7,21 +7,18 @@
 
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
-    <RootNamespace>RoomBookingApp.Core</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.14" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
-    <PackageReference Include="Moq" Version="4.20.72" />
-    <PackageReference Include="Shouldly" Version="4.3.0" />
     <PackageReference Include="xunit" Version="2.5.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RoomBookingApp.Core\RoomBookingApp.Core.csproj" />
-    <ProjectReference Include="..\RoomBookingApp.Domain\RoomBookingApp.Domain.csproj" />
+    <ProjectReference Include="..\RoomBookingApp.Persistence\RoomBookingApp.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>
